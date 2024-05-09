@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+.outer{
+    width: 100%;
+    height: 100vh;
+    background-image: radial-gradient(pink,blueviolet);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+
+}
+.center{
+    width: 25%;
+    height: 80vh;
+    background-color:white;
+    box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    margin-top: 5%;
+    border: 10px double rgb(55, 6, 77);
+}
+
+h1{
+    color: rgb(253, 252, 252);
+    background: transparent;
+    background-color:blueviolet;
+    padding: 6px 0 2px 0;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.5)
+}
+input{
+    text-align: center;
+    height: 50px;
+    top: 10px;
+    background:white;
+    font-size: 20px;
+    font-weight: 900;
+    width: 70%;
+    outline: none;
+    color: rgb(3, 1, 17);
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 20px;
+    color: #070332;
+    border: 5px double rgb(228, 220, 236);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.btnAdd{
+    min-height: 20px;
+    width: 50px;
+    border-radius: 30%;
+    background-color: rgb(127, 46, 203);
+    color: #fff;
+    font-size: 40px;
+    padding: 10px;
+    border: 3px solid whitesmoke;
+    outline: none;
+    margin-left: 10px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 10);
+
+}
+.btnAdd:hover{
+    background-color: rgb(212, 234, 178);
+    color: black;
+    border: none;
+}
+ol{
+    margin-top: 30px;
+}
+ol li{
+    padding-left: 0px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 300;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: capitalize;
+    margin-left: 5px;
+}
+.center h1{
+    border: 5px double whitesmoke;
+}
+i{
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+i:hover{
+    color: rgba(255, 0, 0, 0.865);
+}
+.btnRemove:hover{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border:  2px solid red;
+    border-radius: 6px;
+}
+.btnRemove{
+    color: Black;
+    padding: 6px;
+    border:  2px solid black;
+    border-radius: 6px;
+}
