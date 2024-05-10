@@ -6,6 +6,7 @@ const toDoReducer=(state=initData,action)=>{
     switch(action.type){
         case 'ADD': 
             const {id,data}=action.payload;
+            if(data.length>2){
             return{
                 ...state,
                 list:
@@ -16,6 +17,7 @@ const toDoReducer=(state=initData,action)=>{
                     data:data
                     }
                 ]
+            }
             }
 
             case 'DELETE': 
